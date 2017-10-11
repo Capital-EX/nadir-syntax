@@ -4,27 +4,28 @@
 
 // Custom colors
 @blue: #00BAFF;
+@off-black: #111;
 
 // General colors
-@syntax-text-color: @oc-gray-7;
-@syntax-text-color-light: @oc-gray-6;
-@syntax-text-color-dark: #202123;
+@syntax-text-color: @oc-gray-2;
+@syntax-text-color-light: @white;
+@syntax-text-color-dark: @oc-gray-5;
 @syntax-cursor-color: @blue;
-@syntax-selection-color: @oc-gray-1;
-@syntax-background-color: #fff;
+@syntax-selection-color: @off-black;
+@syntax-background-color: @oc-gray-9;
 
 // Guide colors
 @syntax-wrap-guide-color: transparent;
-@syntax-indent-guide-color: @oc-gray-5;
+@syntax-indent-guide-color: rgba(173, 181, 189, 0.5);
 @syntax-invisible-character-color: @oc-gray-5;
 
 // For find and replace markers
-@syntax-result-marker-color: @oc-blue-5;
-@syntax-result-marker-color-selected: @oc-blue-9;
+@syntax-result-marker-color: @oc-red-5;
+@syntax-result-marker-color-selected: @oc-red-9;
 
 // Gutter colors
 @syntax-gutter-text-color: @oc-gray-5;
-@syntax-gutter-text-color-selected: @oc-gray-9;
+@syntax-gutter-text-color-selected: @white;
 @syntax-gutter-background-color: @syntax-background-color;
 @syntax-gutter-background-color-selected: @syntax-background-color;
 
@@ -35,9 +36,15 @@
 @syntax-color-removed: @oc-pink-6;
 
 // Comments
-@syntax-comment-color: @oc-gray-5;
+@syntax-comment-color: @oc-gray-6;
 @syntax-comment-delim-color: @oc-gray-5;
 @syntax-comment-background-color: transparent;
 
 // Bracket matching
-@bracket-match-color: @oc-blue-0;
+@bracket-match-color: @oc-red-9;
+
+
+// Syntax
+@syntax-keyword-color: @oc-red-5;
+@syntax-symbol-color: @oc-red-3;
+@syntax-parameter-color: @oc-red-1;

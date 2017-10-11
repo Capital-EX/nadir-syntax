@@ -74,15 +74,37 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 // Primitives
 
-.syntax--string {
-  color: @syntax-text-color-light;
+.syntax--string
+, .syntax--single {
+  color: @syntax-text-color-dark;
 }
-
-// Comments
 
 .syntax--comment {
   color: @syntax-comment-color;
   background-color: @syntax-comment-background-color;
+}
+
+.syntax--keyword
+, .syntax--boolean
+, .syntax--storage{
+  color: @syntax-keyword-color;
+}
+
+.syntax--operator
+, .syntax--arrow {
+  color: @syntax-symbol-color;
+}
+
+.syntax--parameter {
+  color: @syntax-parameter-color;
+}
+
+.syntax--tag {
+  color: @syntax-keyword-color;
+}
+
+.syntax--attribute-name {
+  color: @syntax-parameter-color;
 }
 
 // Punctuation
@@ -150,7 +172,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 .bracket-matcher {
   border-bottom: none;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.0);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 atom-text-editor.editor  .bracket-matcher .region {
