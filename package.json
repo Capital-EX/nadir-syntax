@@ -2,12 +2,12 @@
   "name": "nadir-syntax",
   "theme": "syntax",
   "version": "0.0.1",
-  "description": "Nadir the dark monochrome fork of Apex",
+  "description": "Nadir the dark fork of Apex",
   "keywords": [
     "nadir",
     "monochrome",
     "syntax",
-    "ia",
+    "fork",
     "writer",
     "dark"
   ],
