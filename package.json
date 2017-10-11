@@ -1,17 +1,17 @@
 {
-  "name": "apex-syntax",
+  "name": "nadir-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
-  "description": "Apex monochrome theme syntax inspired by iA Writer",
+  "version": "0.0.1",
+  "description": "Nadir the dark monochrome fork for Apex",
   "keywords": [
-    "apex",
+    "nadir",
     "monochrome",
     "syntax",
     "ia",
     "writer",
-    "light"
+    "dark"
   ],
-  "repository": "https://github.com/apex/apex-syntax",
+  "repository": "https://github.com/capital-ex/nadir-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
